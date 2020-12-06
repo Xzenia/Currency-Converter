@@ -1,0 +1,33 @@
+{
+  "name": "CurrencyConverter",
+  "version": "1.0.0",
+  "description": "A simple currency converter.",
+  "author": "Me",
+  "license": "MIT",
+  "main": "main.js",
+  "engines": {
+    "node": ">=8.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never"
+  },
+  "build": {
+    "appId": "com.xzenia.currencyconverter",
+    "asar": false
+  },
+  "keywords": [
+    "laravel",
+    "electron",
+    "desktop",
+    "application"
+  ],
+  "devDependencies": {
+    "electron": "^10.1.6",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "electron-build": "0.0.3",
+    "node-php-server": "^0.1.2"
+  }
+}
